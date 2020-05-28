@@ -79,6 +79,11 @@ nav {
     color: #303030;
 }
 
+.produk .container a:hover {
+    color: #F94DBD;
+    transition: .2s;
+}
+
 .produk .container a .card-title {
     font-weight: 500;
 }
