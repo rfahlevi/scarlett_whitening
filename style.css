@@ -114,3 +114,18 @@ nav {
 .produk .col.show-produk {
     opacity: 1;
 }
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer .follow a {
+    text-decoration: none;
+    color: #303030;
+}
+
+footer .follow a:hover {
+    color: black;
+    font-weight: 440;
+    transition: .2s;
+}
