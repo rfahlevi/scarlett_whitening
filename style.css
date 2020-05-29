@@ -53,10 +53,19 @@ nav {
     max-height: 100%;
 }
 
+.kategori .container .card .card-img-overlay {
+    transform: translateY(-20px);
+}
+
+.kategori .container .card .card-img-overlay p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #303030;
+    font-style: italic;
+}
+
 .kategori .container .card:hover {
     transform: translateY(5px);
-    color: #F94DBD;
-    font-weight: 500;
     transition: .2s;
 }
 
