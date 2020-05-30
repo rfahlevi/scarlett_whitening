@@ -106,13 +106,9 @@ nav {
     font-weight: 500;
 }
 
-.produk .col {
-    opacity: 0;
-    transition: 1s ease-out;
-}
-
-.produk .col.show-produk {
-    opacity: 1;
+.produk .card-produk {
+    background-color: white;
+    border: 1px solid #eaeaea;
 }
 
 footer {
