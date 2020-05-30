@@ -109,6 +109,7 @@ nav {
 .produk .card-produk {
     background-color: white;
     border: 1px solid #eaeaea;
+    margin: 0;
 }
 
 footer {
