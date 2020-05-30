@@ -39,13 +39,13 @@ nav {
  border: 1px solid #eaeaea;
  text-align: center;
  margin-bottom: 20px;
- opacity: 0;
- transition: 2s ease-out;
+ /* opacity: 0;
+ transition: 2s ease-out; */
 }
 
-.kategori .container .card-kategori.show-kategori {
+/* .kategori .container .card-kategori.show-kategori {
     opacity: 1;
-}
+} */
 
 .kategori .container a {
     text-decoration: none;
@@ -96,13 +96,13 @@ nav {
     background-color: white;
     border: 1px solid #eaeaea;
     margin: 0;
-    opacity: 0;
-    transition: 1s ease-out;
+    /* opacity: 0;
+    transition: 1s ease-out; */
 }
 
-.produk .card-produk.show-produk {
+/* .produk .card-produk.show-produk {
     opacity: 1;
-}
+} */
 
 footer {
     background-color: #f2f2f2;
