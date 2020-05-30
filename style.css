@@ -112,7 +112,7 @@ nav {
 }
 
 .produk .col .card {
-    width: 100%;
+    width: auto;
 }
 
 .produk .col.show-produk {
