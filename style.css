@@ -111,10 +111,6 @@ nav {
     transition: 1s ease-out;
 }
 
-.produk .col .card {
-    width: 200px;
-}
-
 .produk .col.show-produk {
     opacity: 1;
 }
