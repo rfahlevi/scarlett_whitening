@@ -110,6 +110,7 @@ footer .follow a:hover {
 
 /* SINGLE PRODUK */
 .single-produk .container {
+    margin: 20px auto;
     background-color: white;
     color: #303030;
 }
@@ -119,6 +120,14 @@ footer .follow a:hover {
     padding: 20px;
 }
 
-.single-produk .container .d-flex img {
-    margin: 0 10px;
+.single-produk .container .whatsapp {
+    border-radius: 0px;
+    font-size: 24px;
+    width: fit-content;
 }
+
+.single-produk .container .whatsapp i,
+.single-produk .container .whatsapp p {
+    transform: translateY(6px);
+}
+
