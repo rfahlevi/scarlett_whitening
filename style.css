@@ -34,6 +34,13 @@ nav {
     color: #303030;
 }
 
+.kategori .container .kategori-produk {
+ background-color: white;   
+ border: 1px solid #eaeaea;
+ text-align: center;
+ margin-bottom: 20px;
+}
+
 .kategori .container a {
     text-decoration: none;
     font-size: 20px;
@@ -41,41 +48,14 @@ nav {
     font-weight: 430;
 }
 
-
-.kategori .container .card {
-    background-color: transparent;
-    border: none;
-    text-align: center;
-}
-
-.kategori .container .card img {
-    max-width: 150px;
-    max-height: 100%;
-}
-
-.kategori .container .card .card-img-overlay {
-    transform: translateY(-20px);
-}
-
-.kategori .container .card .card-img-overlay p {
-    font-size: 18px;
-    font-weight: 500;
-    color: #303030;
-    font-style: italic;
-}
-
-.kategori .container .card:hover {
-    transform: translateY(5px);
+.kategori .container a:hover {
+    color: #F94DBD;
+    font-weight: 450;
     transition: .2s;
 }
 
-.kategori .col {
-    opacity: 0;
-    transition: 1s ease-out;
-}
-
-.kategori .col.show-kategori {
-    opacity: 1;
+.kategori .container a img {
+    padding-top: 13px;
 }
 
 .flash-sale {
