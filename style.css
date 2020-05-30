@@ -4,8 +4,10 @@ body {
     font-family: barlow;
 }
 
+/* LANDING PAGE */
+
 nav {
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 .navbar-collapse .navbar-brand {
@@ -25,9 +27,8 @@ nav {
 }
 
 .kategori .container {
-    background-color: #f2f2f2;
+    background-color: white;
     margin-top: 20px;
-    border-radius: 10px;
 }
 
 .kategori .container h4 {
@@ -39,13 +40,7 @@ nav {
  border: 1px solid #eaeaea;
  text-align: center;
  margin-bottom: 20px;
- /* opacity: 0;
- transition: 2s ease-out; */
 }
-
-/* .kategori .container .card-kategori.show-kategori {
-    opacity: 1;
-} */
 
 .kategori .container a {
     text-decoration: none;
@@ -73,8 +68,7 @@ nav {
 }
 
 .produk .container  {
-    background-color: #f2f2f2;
-    border-radius: 10px;
+    background-color: white;
     margin-top: 20px;
 }
 
@@ -96,16 +90,10 @@ nav {
     background-color: white;
     border: 1px solid #eaeaea;
     margin: 0;
-    /* opacity: 0;
-    transition: 1s ease-out; */
 }
 
-/* .produk .card-produk.show-produk {
-    opacity: 1;
-} */
-
 footer {
-    background-color: #f2f2f2;
+    background-color: white;
 }
 
 footer .follow a {
@@ -117,4 +105,20 @@ footer .follow a:hover {
     color: black;
     font-weight: 440;
     transition: .2s;
+}
+
+
+/* SINGLE PRODUK */
+.single-produk .container {
+    background-color: white;
+    color: #303030;
+}
+
+.single-produk .container .carousel {
+    width: 70%;
+    padding: 20px;
+}
+
+.single-produk .container .d-flex img {
+    margin: 0 10px;
 }
