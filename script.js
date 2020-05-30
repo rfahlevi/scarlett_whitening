@@ -1,8 +1,8 @@
 $(window).on('load', function() {
-    $('.kategori .col, .produk .col').each(function(i) {
+    $('.kategori .card-kategori, .produk .card-produk').each(function(i) {
         setTimeout(function() {
-            $('.kategori .col').eq(i).addClass('show-kategori'),
-            $('.produk .col').eq(i).addClass('show-produk')
+            $('.kategori .card-kategori').eq(i).addClass('show-kategori'),
+            $('.produk .card-produk').eq(i).addClass('show-produk')
     }, 200 * i);
     });
 });
