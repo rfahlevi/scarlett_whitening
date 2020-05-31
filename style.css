@@ -120,14 +120,13 @@ footer .follow a:hover {
     padding: 20px;
 }
 
-.single-produk .container .whatsapp {
-    border-radius: 0px;
-    font-size: 24px;
-    width: fit-content;
+.single-produk .container .right-side .shopee {
+    color: #EA501F;
+    border: 1px solid #EA501F;
 }
 
-.single-produk .container .whatsapp i,
-.single-produk .container .whatsapp p {
-    transform: translateY(6px);
+.single-produk .container .right-side .shopee:hover {
+    color: white;
+    background-color: #EA501F;
+    transition: .2s;
 }
-
