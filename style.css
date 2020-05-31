@@ -120,6 +120,10 @@ footer .follow a:hover {
     padding: 20px;
 }
 
+.single-produk .container .left-side {
+    margin-bottom: 20px;
+}
+
 .single-produk .container .right-side .shopee {
     color: #EA501F;
     border: 1px solid #EA501F;
