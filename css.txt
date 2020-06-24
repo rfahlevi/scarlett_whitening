@@ -1,0 +1,137 @@
+body {
+    background-color: #F94DBD;
+    position: relative;
+    font-family: barlow;
+}
+
+/* LANDING PAGE */
+
+nav {
+    background-color: white;
+}
+
+.navbar-collapse .navbar-brand {
+    color: #303030;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.navbar-collapse .navbar-brand:hover {
+    color: #F94DBD;
+    transition: .1s;
+}
+
+.navbar-collapse img {
+    max-width: 75%;
+    max-height: 100%;
+}
+
+.kategori .container {
+    background-color: white;
+    margin-top: 20px;
+}
+
+.kategori .container h4 {
+    color: #303030;
+}
+
+.kategori .container .card-kategori {
+ background-color: white;   
+ border: 1px solid #eaeaea;
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+.kategori .container a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #303030;
+    font-weight: 430;
+}
+
+.kategori .container a:hover {
+    color: #F94DBD;
+    font-weight: 450;
+    transition: .2s;
+}
+
+.kategori .container a img {
+    padding-top: 13px;
+}
+
+.flash-sale {
+    margin-top: 20px;
+}
+
+.produk {
+    margin-bottom: 20px;
+}
+
+.produk .container  {
+    background-color: white;
+    margin-top: 20px;
+}
+
+.produk .container a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.produk .container a:hover {
+    color: #F94DBD;
+    transition: .2s;
+}
+
+.produk .container a .card-title {
+    font-weight: 500;
+}
+
+.produk .card-produk {
+    background-color: white;
+    border: 1px solid #eaeaea;
+    margin: 0;
+}
+
+footer {
+    background-color: white;
+}
+
+footer .follow a {
+    text-decoration: none;
+    color: #303030;
+}
+
+footer .follow a:hover {
+    color: black;
+    font-weight: 440;
+    transition: .2s;
+}
+
+
+/* SINGLE PRODUK */
+.single-produk .container {
+    margin: 20px auto;
+    background-color: white;
+    color: #303030;
+}
+
+.single-produk .container .carousel {
+    width: 70%;
+    padding: 20px;
+}
+
+.single-produk .container .right-side .whatsapp {
+    margin-bottom: 20px;
+}
+
+.single-produk .container .right-side .shopee {
+    color: #EA501F;
+    border: 1px solid #EA501F;
+    margin-bottom: 20px;
+}
+
+.single-produk .container .right-side .shopee:hover {
+    color: white;
+    background-color: #EA501F;
+    transition: .2s;
+}

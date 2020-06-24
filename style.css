@@ -1,137 +1,366 @@
 body {
-    background-color: #F94DBD;
-    position: relative;
-    font-family: barlow;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
 }
 
-/* LANDING PAGE */
+p, span {
+    color: #666;
+}
 
-nav {
+.navbar {
+    border-bottom: 1px solid #eee;
+    font-family: 'Roboto', sans-serif;
     background-color: white;
+    transition: .5s;
 }
 
-.navbar-collapse .navbar-brand {
-    color: #303030;
-    font-weight: 600;
-    letter-spacing: 2px;
+.navbar.show-navbar {
+    box-shadow: 1px 0 20px #ff80d0;
 }
 
-.navbar-collapse .navbar-brand:hover {
-    color: #F94DBD;
-    transition: .1s;
+
+.nav-link {
+    font-size: 16px;
 }
 
-.navbar-collapse img {
-    max-width: 75%;
-    max-height: 100%;
-}
-
-.kategori .container {
-    background-color: white;
-    margin-top: 20px;
-}
-
-.kategori .container h4 {
-    color: #303030;
-}
-
-.kategori .container .card-kategori {
- background-color: white;   
- border: 1px solid #eaeaea;
- text-align: center;
- margin-bottom: 20px;
-}
-
-.kategori .container a {
-    text-decoration: none;
+.navbar-brand {
     font-size: 20px;
-    color: #303030;
-    font-weight: 430;
+    border: none !important;
 }
 
-.kategori .container a:hover {
-    color: #F94DBD;
-    font-weight: 450;
-    transition: .2s;
+.nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #f5009b;
+    border-radius: 40%;
+    width: 50%;
+    margin: -3px auto;
 }
 
-.kategori .container a img {
-    padding-top: 13px;
+.produk-wrapper {
+    padding: 40px 0;
 }
 
-.flash-sale {
-    margin-top: 20px;
+
+.title-section {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 50px 0 0;
+}
+
+.title-section::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #f5009b;
+    width: 5%;
+    margin: 3px auto;
+}
+
+.main-img {
+    display: block;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.title-caption {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px 0;
+}
+
+.caption {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.banner {
+    height: 100%;
+}
+
+.banner .banner-left {
+    order: 2;
+    transform: translateX(-200px);
+    opacity: 0;
+    transition: 1s ease-out;
+}
+
+.banner .banner-left span {
+    font-size: 8px;
+}
+
+.banner .banner-right {
+    transform: translateX(200px);
+    opacity: 0;
+    transition: 1s ease-out;
+}
+
+.banner .banner-left.show-banner , .banner .banner-right.show-banner {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+.banner h3 {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.banner span {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.banner .caption {
+    font-size: 12px;
 }
 
 .produk {
-    margin-bottom: 20px;
+    background-color: #fff5fb;
+    height: 100%;
 }
 
-.produk .container  {
-    background-color: white;
-    margin-top: 20px;
+.produk .produk-wrapper .col-lg-6 {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .5s ease-out;
 }
 
-.produk .container a {
-    text-decoration: none;
-    color: #303030;
+.produk .produk-wrapper .col-lg-6.show-produk {
+    opacity: 1;
+    transform: translate(0,0);
 }
 
-.produk .container a:hover {
-    color: #F94DBD;
-    transition: .2s;
+.produk .title-caption {
+    font-size: 16px;
 }
 
-.produk .container a .card-title {
-    font-weight: 500;
+.produk .caption {
+    font-size: 12px;
 }
 
-.produk .card-produk {
-    background-color: white;
-    border: 1px solid #eaeaea;
-    margin: 0;
-}
-
-footer {
-    background-color: white;
-}
-
-footer .follow a {
-    text-decoration: none;
-    color: #303030;
-}
-
-footer .follow a:hover {
-    color: black;
-    font-weight: 440;
-    transition: .2s;
-}
-
-
-/* SINGLE PRODUK */
-.single-produk .container {
-    margin: 20px auto;
-    background-color: white;
-    color: #303030;
-}
-
-.single-produk .container .carousel {
-    width: 70%;
-    padding: 20px;
-}
-
-.single-produk .container .right-side .whatsapp {
-    margin-bottom: 20px;
-}
-
-.single-produk .container .right-side .shopee {
-    color: #EA501F;
-    border: 1px solid #EA501F;
-    margin-bottom: 20px;
-}
-
-.single-produk .container .right-side .shopee:hover {
+.btn-produk {
+    background: #f5009b;
     color: white;
-    background-color: #EA501F;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 12px;
     transition: .2s;
+}
+
+.btn-produk:hover {
+    color: #f5009b;
+    background: white;
+    border: 1px solid #f5009b;
+    font-weight: bold;
+}
+
+.e-katalog .box-katalog {
+    border: 1px solid #eaeaea;
+    width: 170px;
+    transform: translateY(10px);
+    opacity: 0;
+    transition: .5s;
+}
+
+.e-katalog .box-katalog.show-katalog {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.e-katalog .box-katalog a {
+    text-decoration: none;
+}
+
+.e-katalog .box-katalog img {
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, .2);
+}
+
+.e-katalog .title-katalog {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.e-katalog .price-katalog {
+    color: #f5009b;
+    font-weight: 600;
+    text-align: center;
+}
+
+.kontak {
+    background: #fff5fb;
+}
+
+.kontak .col-lg-4 {
+    padding: 20px;
+    height: 100%;
+    margin: 20px 0;
+}
+
+.kontak .whatsapp, .kontak .alamat {
+    margin: 30px 0;
+}
+
+.kontak .whatsapp p, .kontak .shopee p, .kontak .alamat .d-flex, .kontak .operasional .d-flex {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.kontak .whatsapp i {
+    font-size: 30px;
+    color: #128C7E;
+    font-weight: 600;
+}
+
+
+.kontak .whatsapp a, .kontak .shopee a {
+    text-decoration: none;
+    color: #666;
+    margin-left: 40px;
+}
+
+.kontak .shopee i {
+    font-size: 30px;
+    font-weight: 600;
+    color: #ff540a;
+}
+
+.kontak .alamat i, .kontak .operasional i{
+    font-size: 30px;
+    color: #f5009b;
+    font-weight: 600;
+}
+
+.kontak .alamat p {
+    color: #666;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.kontak .operasional p {
+    color: #666;
+    margin-left: 40px;
+    font-size: 14px;
+}
+
+.kontak .maps {
+    margin: 0;
+    padding: 0;
+}
+
+.kontak .maps iframe {
+    width: 100%;
+    height: 400px;
+}
+
+.footer {
+    height: 70px;
+    background-color: #212529;
+}
+
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a i {
+    color: white;
+    font-size: 30px;
+}
+
+.footer .col-12 p {
+    color: white;
+    margin-top: 5px;
+}
+
+/* Dekstop */
+@media screen and (min-width: 992px) {
+    .banner {
+        padding: 120px 0;
+    }
+
+    .banner h3 {
+        font-size: 28px;
+    }
+
+    .banner .banner-left span {
+        font-size: 12px;
+    }
+
+    .banner .caption {
+        font-size: 14px;
+    }
+
+    .banner .banner-right {
+        order: 2;
+    }
+
+    .produk .title-caption {
+        font-size: 26px;
+    }
+    
+    .produk .caption {
+        font-size: 14px;
+    }
+
+    .e-katalog .box-katalog img {
+        margin-top: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, .2);
+        width: 150px;
+    }
+
+    .e-katalog .title-katalog {
+        text-align: left;
+    }
+
+    .e-katalog .price-katalog {
+        text-align: right;
+    }
+
+    .kontak .whatsapp p, .kontak .shopee p {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .kontak .whatsapp i {
+        font-size: 30px;
+        color: #128C7E;
+        font-weight: 600;
+    }
+
+    .kontak .shopee i {
+        font-size: 30px;
+        font-weight: 600;
+        color: #ff540a;
+    }
+
+    .kontak .whatsapp a, .kontak .shopee a {
+        text-decoration: none;
+        color: #666;
+        margin-left: 40px;
+    }
 }

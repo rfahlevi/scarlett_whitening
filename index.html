@@ -9,14 +9,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">    
+    
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- LightBox2 -->
+    <link rel="stylesheet" href="lightbox2-2.11.1/src/css/lightbox.css">
 
 
     <title>SCARLETT WHITENING BEKASI</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <!-- <nav class="navbar navbar-expand-lg navbar-light sticky-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -200,13 +207,295 @@
           <p class="text-muted">@Tooddler Clothes 2020. Hak Cipta Dilindungi</p>
         </div>
       </div>
-    </footer>
+    </footer> -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand page-scroll" href="#banner">Scarlett and Beauty Care</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link page-scroll" href="#banner">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#produk">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#e-katalog">E-Katalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner" id="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 banner-left">
+            <span class="align-bottom">Solusi Perawatan Tubuh</span> 
+            <h3>Skin Care & Body Lotion</h3>
+            <p class="caption">Reseller Resmi Scarlett Whitening by Felicya Angelista ( Bekasi )
+              Hallo selamat berbelanja di akun resmi Scarlett whitening by Felicya ( Bekasi ).
+              Instagram : @scarlettbyfelicya.bekasi <br>
+              Whatsapp : 0822-1172-3419 <br>
+              Pengiriman : <br>
+              - Senin-Sabtu (JNE, JNT, SiCepat & GO-SEND max jam 2 sore) <br>
+              - Minggu / Tgl Merah (GO-SEND max jam 12 siang) <br>
+              RESI DI UPDATE H+1 PENGIRIMAN YA :) <br>
+              Jika ada yg ingin ditanyakan bisa langsung chat kami ya dear, kami siap membantu.. <br> 
+              Have a nice day and Happy Shopping! ^O^</p>
+          </div>
+          <div class="col-lg-6 col-md-12 banner-right">
+            <img src="assets/img/banner-home.png" alt="Image Responsive" class="img-fluid main-img">
+          </div>
+        </div>
+      </section>
+
+
+      <section class="produk" id="produk">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <h3 class="title-section">Produk</h3>
+            </div>
+          </div>
+            <div id="carouselProduk" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row produk-wrapper">
+                    <div class="col-lg-6 col-md-12">
+                      <img src="assets/img/Produk/shower-scrub.jpeg" alt="Image Responsive" class="img-fluid main-img">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                      <h3 class="title-caption">Scarlett Whitening Shower Scrub</h3>
+                      <p class="caption">Dibuat dengan beberapa variant yaitu Pomegrante, Mango dan Cucumber. Dibuat khusus untuk kamu yang ingin mencerahkan kulit tubuh, mengandung Glutathione (vitamin pencerah kulit paling cepat di dunia) dan butiran Vitamin E. Juga terdapat butiran scrub yang mampu mengangkat sel kulit mati dan kotoran yang menumpuk di kulit tubuhmu.
+                      </p>
+        
+                      <button class="btn btn-produk mb-5">Lihat Katalog</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row produk-wrapper">
+                    <div class="col-lg-6 col-md-12">
+                      <h3 class="title-caption">Scarlett Whitening Body Lotion</h3>
+                      <p class="caption">Dibuat dengan beberapa variant yaitu Pomegrante, Mango dan Cucumber. Dibuat khusus untuk kamu yang ingin mencerahkan kulit tubuh, mengandung Glutathione (vitamin pencerah kulit paling cepat di dunia) dan butiran Vitamin E. Juga terdapat butiran scrub yang mampu mengangkat sel kulit mati dan kotoran yang menumpuk di kulit tubuhmu.
+                      </p>
+
+                      <button class="btn btn-produk mb-5 d-block ml-auto">Lihat Katalog</button>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                      <img src="assets/img/Produk/body-lotion.jpeg" alt="Image Responsive" class="img-fluid main-img">
+                    </div>
+                  </div>                
+                </div>
+                <div class="carousel-item">
+                  <div class="row produk-wrapper">
+                    <div class="col-lg-6 col-md-12">
+                      <img src="assets/img/Produk/body-scrub.jpeg" alt="Image Responsive" class="img-fluid main-img">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                      <h3 class="title-caption">Scarlett Whitening Body Scrub</h3>
+                      <p class="caption">Dibuat dengan beberapa variant yaitu Pomegrante, Mango dan Cucumber. Dibuat khusus untuk kamu yang ingin mencerahkan kulit tubuh, mengandung Glutathione (vitamin pencerah kulit paling cepat di dunia) dan butiran Vitamin E. Juga terdapat butiran scrub yang mampu mengangkat sel kulit mati dan kotoran yang menumpuk di kulit tubuhmu.
+                      </p>
+
+                      <button class="btn btn-produk mb-5">Lihat Katalog</button>
+                    </div>
+                  </div>                
+                </div>
+                <div class="carousel-item">
+                  <div class="row produk-wrapper">
+                    <div class="col-lg-6 col-md-12">
+                      <h3 class="title-caption">Scarlett Whitening Facial Wash</h3>
+                      <p class="caption">Dibuat dengan beberapa variant yaitu Pomegrante, Mango dan Cucumber. Dibuat khusus untuk kamu yang ingin mencerahkan kulit tubuh, mengandung Glutathione (vitamin pencerah kulit paling cepat di dunia) dan butiran Vitamin E. Juga terdapat butiran scrub yang mampu mengangkat sel kulit mati dan kotoran yang menumpuk di kulit tubuhmu.
+                      </p>
+
+                      <button class="btn btn-produk mb-5 d-block ml-auto">Lihat Katalog</button>
+                    </div>
+                      <div class="col-lg-6 col-md-12">
+                        <img src="assets/img/Produk/facial-wash.jpeg" alt="Image Responsive" class="img-fluid main-img">
+                      </div>
+                  </div>
+        
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselProduk" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselProduk" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>     
+        </div>
+      </section>
+
+      <section class="e-katalog" id="e-katalog">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="title-section">E-Katalog</h3>
+            </div>
+          </div>
+          <div class="row py-5 justify-content-center">
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/bodylotion/bodylotion_charming.png" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Body Lotion Charming">
+                <img src="assets/img/katalog/bodylotion/bodylotion_charming.png" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Body Lotion Charming</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/bodylotion/bodylotion_romansa.png" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Body Lotion Romansa">
+                <img src="assets/img/katalog/bodylotion/bodylotion_romansa.png" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Body Lotion Romansa</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/bodylotion/bodylotion_fantasia.png" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Body Lotion Fantasia">
+                <img src="assets/img/katalog/bodylotion/bodylotion_fantasia.png" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Body Lotion Fantasia</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/showerscrub/showerscrub_pomegrante.PNG" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Shower Scrub Pomegrante">
+                <img src="assets/img/katalog/showerscrub/showerscrub_pomegrante.PNG" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Shower Scrub Pomegrante</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/showerscrub/showerscrub_cucumber.PNG" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Shower Scrub Cucumber">
+                <img src="assets/img/katalog/showerscrub/showerscrub_cucumber.PNG" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Shower Scrub Cucumber</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/showerscrub/showerscrub_mango.PNG" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Shower Scrub Mango">
+                <img src="assets/img/katalog/showerscrub/showerscrub_mango.PNG" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Shower Scrub Mango</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/bodyscrub/bodyscrub_romansa.png" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Body Scrub Romansa">
+                <img src="assets/img/katalog/bodyscrub/bodyscrub_pomegrente.png" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Body Scrub Romansa</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/bodyscrub/bodyscrub_pomegrente.png" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Body Scrub Pomegrante">
+                <img src="assets/img/katalog/bodyscrub/bodyscrub_romansa.png" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Body Scrub Pomegrante</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/facialwash/normal_to_dry_skin.PNG" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Facial Wash Normal to Dry Skin">
+                <img src="assets/img/katalog/facialwash/normal_to_dry_skin.PNG" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Facial Wash Normal to Dry Skin</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 box-katalog">
+              <a href="lightbox2-2.11.1/src/images/facialwash/oily_skin.PNG" data-lightbox="scarlett_whitening" data-title="Scarlett Whitening Facial Wash Oily Skin">
+                <img src="assets/img/katalog/facialwash/oily_skin.PNG" alt="Image Responsive" class="d-block mx-auto img-fluid">
+                <p class="title-katalog">Scarlett Whitening Facial Wash Oily Skin</p>  
+                <p class="price-katalog">Rp. 70.000</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="kontak" id="kontak">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="title-section">Kontak</h3>
+              <p class="caption text-center"> Hubungi kami jika ingin bertanya-tanya atau ingin pesan langsung</p>
+            </div>
+          </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-4 col-sm-12">
+                <div class="whatsapp">
+                  <p class="d-flex"><i class="fab fa-whatsapp mr-3"></i>  Whatsapp</p>
+                  <a href="">(+62)88211723419</a>
+                </div>
+                <div class="shopee">
+                  <p class="d-flex"><i class="fab fa-shopify mr-3"></i>  Shopee</p>
+                  <a href="">Scarlett By Felicya Bekasi</a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12">
+                <div class="alamat">
+                  <p class="d-flex"><i class="fas fa-map-marker-alt mr-3"></i>  Alamat</p>
+                  <p>Ujung Menteng RT.005/008 No.76, Kel. Medan Satria, Kec. Medan Satria, Bekasi Barat. 17132 <br>
+                    KOTA BEKASI - MEDAN SATRIA <br>
+                    JAWA BARAT <br>
+                    ID 17132</p>
+                </div>
+                <div class="operasional">
+                  <p class="d-flex"><i class="far fa-clock mr-2"></i> Jam Operasional</p>
+                  <p> Senin - Minggu | 08.00 - 17.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row maps">
+              <div class="col-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.6358941596891!2d106.9735165319669!3d-6.191770812672606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698b34283cb4fd%3A0xa3c551aab7804835!2sScarlett%20By%20Felicya%20Bekasi!5e0!3m2!1sid!2sid!4v1592920131695!5m2!1sid!2sid" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+            </div>
+          </div>
+      </section>
+
+      <section class="footer">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-4 text-center">
+              <a href="">
+                <i class="fab fa-instagram mr-4 mt-2"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-whatsapp mr-4 mt-2"></i>
+              </a>
+              <a href="">
+                <i class="fab fa-shopify mr-4 mt-2"></i>
+              </a>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 text-center">
+              <p>© 2019 Copyright <span>Scarlett and Beauty Care</span>  All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- LightBox2 -->
+    <script src="lightbox2-2.11.1/src/js/lightbox.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>
